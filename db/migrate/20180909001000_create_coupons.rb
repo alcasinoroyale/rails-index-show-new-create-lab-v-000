@@ -4,7 +4,7 @@ class CreateCoupons < ActiveRecord::Migration
       t.string :coupon_code
       t.string :coupon_code
 
-      t.timestamps null:false
+      t.timestamps null: false
     end
   end
 end
